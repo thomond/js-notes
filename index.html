@@ -6,14 +6,15 @@
     <script src="lib/script.js"></script>
   </head>
 
-  <body>
+  <body onload="updatePage()">
     <h1>Hello Plunker!</h1>
     <input id="note-title" type="text" placeholder="Title"/>
     <br/>
     <textarea id="note-body"></textarea>
     <br/>
     <button onclick="save()" id="save-note"/> Save</button>
-
+    <button onclick="deleteAll()" id="save-note"/> Delete All</button> 
+    
     <div id="notes">
       
     </div>
